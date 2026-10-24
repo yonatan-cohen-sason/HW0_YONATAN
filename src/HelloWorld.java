@@ -1,10 +1,8 @@
 public class HelloWorld {
-	public static void main(String[] args) {
-		System.out.println("This is hello YYYZZZ  from Yonatan");
+	public static void main(string[] args) {
+		int num = Integer.parseInt(args[0]);
+		System.out.println(factorial(num));
 
-		int a = 1;
-		a = a + 1;
-		System.out.println(a);
 	}
 
 	public static int factorial(int n) {
