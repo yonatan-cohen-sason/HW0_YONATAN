@@ -1,5 +1,9 @@
 public class HelloWorld {
+	int a;
 	public static void main(String[] args) {
+		System.out.println(a);
+		int a = 20;
+		System.out.println(a);
 		int num = Integer.parseInt(args[0]);
 		System.out.println(factorial(num));
 
