@@ -1,5 +1,5 @@
 public class HelloWorld {
-	public static void main(string[] args) {
+	public static void main(String[] args) {
 		int num = Integer.parseInt(args[0]);
 		System.out.println(factorial(num));
 
